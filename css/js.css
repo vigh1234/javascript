@@ -1,0 +1,42 @@
+body{
+    background:linear-gradient(to bottom,rgb(116, 177, 221),rgb(244, 250, 255),rgb(244, 250, 255),rgb(116, 177, 221)); 
+}
+
+#lb1{
+    margin-left: 15%;
+}
+#lb2{
+    margin-left: 3%;
+}
+#lb1,#lb2{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#widthinpx,#percentagewidth,#heightinpx,#percentageheight,#link{
+    margin-left: 15px;
+    border-radius: 6px;
+    background: transparent;
+}
+#a{
+    margin-left: 20%;
+}
+.hj{
+    margin-left: -40%;
+    margin-top: -50px;
+}
+#link{
+    width: 40%;
+    height: 40px;
+}
+#check{
+    width: 30px;
+    height: 20px;
+    margin-top: 20px;
+}
+::placeholder{
+    color: black;
+}
+#img1{
+    width: 50%;
+    height: 50%;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/js.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-5 ms-3"></div>
+    
+    <div class="mt-5 mb-4"><a id="a" href=""><img id="img1" src="images/peakpx.jpg" width="" height="" onclick="imgclk()"/></a></div>
+    
+        
+        <label id="lb1">Image width in pixel:</label>
+        <input id="widthinpx" type="text" onchange="myfunction()" placeholder="Enter width in px"/>
+
+        <label id="lb2">Image width in percentage:</label>
+        <input id="percentagewidth" type="text" onchange="myfunction()"  placeholder="Enter width in %"/>
+        
+        <label class="mt-4" id="lb1">Image height in pixel:</label>
+        <input class="ms-2" id="heightinpx" type="text" onchange="myfunction()" placeholder="Enter height in px"/>
+        
+        
+        <label class="mt-4" id="lb2">Image height in percentage:</label>
+        <input id="percentageheight" type="text" onchange="myfunction()" placeholder="Enter height in %"/>
+
+
+        <label class="mt-5" id="lb1">Link you want to open :</label>
+        <input class="ms-1" id="link" type="text" onchange="myfunction()" placeholder="Please paste the page link here"/>
+         
+     
+        <div class="mb-5">
+            <label class="mt-4" id="lb1" for="check">Want to open the link in new tab:</label>
+            <input class="ms-2" id="check" type="checkbox" onchange="myfunction()" />
+        </div>
+        
+       
+         
+ 
+        </div>
+    
+
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/js.js"></script>
+   
+</body>
+</html>
